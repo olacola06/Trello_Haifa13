@@ -1,0 +1,4 @@
+12247 [Test worker] INFO  manager.TestBase - Test start with user User{email='hatum.testing@gmail.com', password='Hatum21$'}
+19318 [Test worker] INFO  manager.TestBase - Start test test
+11:42:20.467 INFO  manager.TestBase - Test start with user User{email='hatum.testing@gmail.com', password='Hatum21$'}
+11:42:27.463 INFO  manager.TestBase - Start test test

@@ -1,0 +1,3 @@
+11:49:10.375 INFO  manager.TestBase - Start method with name --->test
+11:49:16.210 INFO  manager.TestBase - Test start with user User{email='hatum.testing@gmail.com', password='Hatum21$'}
+11:49:22.994 INFO  manager.TestBase - Start test test
