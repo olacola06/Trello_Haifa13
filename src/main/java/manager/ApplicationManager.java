@@ -11,6 +11,7 @@ public class ApplicationManager {
 
     WebDriver wd;
     UserHelper user;
+    BoardHelper board;
 
 
     public void init() {
@@ -27,12 +28,17 @@ public class ApplicationManager {
         wd.navigate().to("https://trello.com/");
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         user = new UserHelper(wd);
+        board=new BoardHelper(wd);
 
     }
 
     public void stop() {
 
         wd.quit();
+    }
+
+    public BoardHelper board() {
+        return board;
     }
 
     public UserHelper getUser() {
