@@ -42,5 +42,19 @@ public class BoardHelper extends HelperBase {
         return wd.findElement(By.cssSelector(locator)).isDisplayed();
     }
 
+    public int countBoardsBefore() {
+        pause(2000);
+        int count = wd.findElements(By.cssSelector("div.content-all-boards>div>div:nth-child(2) ul li")).size()-1;
+        System.out.println("Count of Boards before is --->" +count);
+        return count;
+    }
+
+    public int countBoardsAfter() {
+        pause(1000);
+        int count = wd.findElements(By.cssSelector("div.content-all-boards>div>div:nth-child(3) ul li")).size()-1;
+        System.out.println("Count of Boards after is --->" +count);
+        return count;
+    }
+
     //href="/b/BNJaSaNz/boardblue1"
 }

@@ -1,0 +1,6 @@
+11:52:32.964 INFO  manager.ListenerNG - onStart
+11:52:33.048 INFO  manager.ListenerNG - onTestStart
+11:52:37.141 INFO  manager.GoToGoogle -  test start on Chrome
+11:52:39.745 INFO  manager.GoToGoogle -  we go to google
+11:52:39.753 INFO  manager.ListenerNG - onTestSuccess
+11:52:39.756 INFO  manager.ListenerNG - onFinish

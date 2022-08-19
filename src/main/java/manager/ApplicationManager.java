@@ -3,13 +3,15 @@ package manager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.concurrent.TimeUnit;
 
 
 public class ApplicationManager {
 
-    WebDriver wd;
+  //WebDriver wd;
+    EventFiringWebDriver wd;
     UserHelper user;
     BoardHelper board;
 
@@ -22,13 +24,14 @@ public class ApplicationManager {
 //        wd = new FirefoxDriver(firefoxOptions);
 //ChromeOptions options = new ChromeOptions();
 //options.addArguments(,en)
-        wd = new ChromeDriver();
+        wd = new EventFiringWebDriver(new ChromeDriver());
 
         wd.manage().window().maximize();
         wd.navigate().to("https://trello.com/");
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         user = new UserHelper(wd);
         board=new BoardHelper(wd);
+        wd.register(new ListenerWd());
 
     }
 

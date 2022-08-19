@@ -27,10 +27,12 @@ public class LoginTests extends TestBase{
     public void loginSuccessUser(){
         User user = new User().withEmail("hatum.testing@gmail.com").withPassword("Hatum21$");
 
+        logger.info("Test start  with user --->" + user.toString());
        app.getUser().initLogin();
         app.getUser().fillLoginForm(user);
         app.getUser().submitLogin();
         Assert.assertTrue(app.getUser().isLogged());
+        logger.info("Tests assert that logout button is present");
 
 
     }

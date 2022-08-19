@@ -21,8 +21,12 @@ public class BoardCreateTests extends TestBase {
 
     @Test
     public void test(){
-        /// count before  == //div.content-all-boards>div>div:nth-child(2) li
-        // count after == div.content-all-boards>div>div:nth-child(3) li
+//       if(count<10){
+//           createBoard();
+//       }else{
+//           deleteBoard();
+//           createBoard();
+//       }
     }
 
     @Test
@@ -32,13 +36,16 @@ public class BoardCreateTests extends TestBase {
         Board board = Board.builder().title("BoardPink"+index).color("Pink").build();
 /// before count
 
+        int countBefore = app.board().countBoardsBefore();
         app.board().initBoardCreation();
         app.board().fillBoardCreationForm(board);
         app.board().submitCreationBoard();
+
         Assert.assertTrue(app.getUser().getUrl().contains(board.getTitle().toLowerCase()));
         Assert.assertTrue(app.board().isBoardCreated(board.getTitle()));
         app.getUser().returnToTrello();
-        /// after count
+        int countAfter =app.board().countBoardsAfter();
+        Assert.assertEquals( countAfter-countBefore,1);
 
     }
 }
