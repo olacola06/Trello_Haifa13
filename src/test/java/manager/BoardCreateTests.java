@@ -34,7 +34,7 @@ public class BoardCreateTests extends TestBase {
         Random random = new Random();
         int index = random.nextInt(10);
         Board board = Board.builder().title("BoardPink"+index).color("Pink").build();
-/// before count
+
 
         int countBefore = app.board().countBoardsBefore();
         app.board().initBoardCreation();

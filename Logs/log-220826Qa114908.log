@@ -1,0 +1,100 @@
+11:49:21.979 INFO  manager.TestBase - Start method with name --->loginSuccess
+11:49:21.998 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:49:27.366 INFO  manager.ListenerWd - Something went wrong!!!
+11:49:27.367 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+11:49:27.812 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2967.png
+11:49:27.826 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+11:49:27.848 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+11:49:27.922 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+11:49:27.932 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+11:49:29.930 INFO  manager.ListenerWd - Start find element by -->By.id: user
+11:49:29.958 INFO  manager.ListenerWd - Finish find element by -->By.id: user
+11:49:30.326 INFO  manager.ListenerWd - Start find element by -->By.id: login
+11:49:30.337 INFO  manager.ListenerWd - Finish find element by -->By.id: login
+11:49:30.569 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #password.css-wxvfrp
+11:49:33.182 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #password.css-wxvfrp
+11:49:33.247 INFO  manager.ListenerWd - Something went wrong!!!
+11:49:33.248 INFO  manager.ListenerWd - org.openqa.selenium.ElementNotInteractableException: Element <input id="password" class="css-wxvfrp" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+11:49:33.664 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2973.png
+11:49:33.809 INFO  manager.TestBase - Start method with name --->loginSuccessUser
+11:49:33.811 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:49:38.886 INFO  manager.ListenerWd - Something went wrong!!!
+11:49:38.887 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+11:49:39.247 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2979.png
+11:49:39.264 INFO  manager.TestBase - Test start  with user --->User{email='hatum.testing@gmail.com', password='Hatum21$'}
+11:49:39.264 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+11:49:44.282 INFO  manager.ListenerWd - Something went wrong!!!
+11:49:44.283 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+*** Element info: {Using=css selector, value=a[href='/login']}
+11:49:44.616 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2984.png
+11:49:44.622 INFO  manager.TestBase - Start method with name --->loginWithWrongEmail
+11:49:44.623 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:49:49.659 INFO  manager.ListenerWd - Something went wrong!!!
+11:49:49.659 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+11:49:50.007 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2990.png
+11:49:50.011 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+11:49:55.034 INFO  manager.ListenerWd - Something went wrong!!!
+11:49:55.034 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+*** Element info: {Using=css selector, value=a[href='/login']}
+11:49:55.364 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2995.png
+11:49:55.369 INFO  manager.TestBase - Start method with name --->loginWithWrongPassword
+11:49:55.370 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:50:00.396 INFO  manager.ListenerWd - Something went wrong!!!
+11:50:00.396 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+11:50:00.715 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-3000.png
+11:50:00.718 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+11:50:05.732 INFO  manager.ListenerWd - Something went wrong!!!
+11:50:05.732 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: Unable to locate element: a[href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 59539, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa2cba9a-26b6-4583-bc7e-a0a8d500bd8b
+*** Element info: {Using=css selector, value=a[href='/login']}
+11:50:06.034 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-3006.png

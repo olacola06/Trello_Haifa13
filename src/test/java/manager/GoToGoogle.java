@@ -12,7 +12,7 @@ public class GoToGoogle {
     Logger logger = LoggerFactory.getLogger(GoToGoogle.class);
     WebDriver wd;
 
-    @Test
+    @Test(enabled = false)
     public void goToGoogle(){
         wd= new ChromeDriver();
         logger.info(" test start on Chrome");

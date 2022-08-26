@@ -1,0 +1,29 @@
+17:44:43.341 INFO  manager.TestBase - Start method with name --->createNewBoardSuccess
+17:44:43.350 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+17:44:48.686 INFO  manager.ListenerWd - Something went wrong!!!
+17:44:48.687 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id='header-member-menu-button']"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1040:b906:36b1:895b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:59063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 109ee07c0873a84b2b05e56e38a0081f
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+17:44:49.209 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2689.png
+17:44:49.221 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+17:44:49.236 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+17:44:49.318 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+17:44:49.330 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+17:45:28.790 INFO  manager.ListenerWd - Start find element by -->By.id: user
+17:45:33.835 INFO  manager.ListenerWd - Something went wrong!!!
+17:45:33.836 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1040:b906:36b1:895b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:59063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 109ee07c0873a84b2b05e56e38a0081f
+*** Element info: {Using=id, value=user}
+17:45:34.253 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-2734.png

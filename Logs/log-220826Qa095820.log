@@ -1,0 +1,205 @@
+09:58:29.094 INFO  manager.ListenerNG - onStart
+09:58:29.149 INFO  manager.TestBase - Start method with name --->createNewBoardSuccess
+09:58:29.157 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:58:34.396 INFO  manager.ListenerWd - Something went wrong!!!
+09:58:34.397 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id='header-member-menu-button']"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91d1747214d37d603f267da94d047545
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+09:58:35.196 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-3515.png
+09:58:35.295 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+09:58:35.345 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+09:58:35.410 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+09:58:35.426 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+09:58:37.965 INFO  manager.ListenerWd - Start find element by -->By.id: user
+09:58:38.055 INFO  manager.ListenerWd - Finish find element by -->By.id: user
+09:58:38.358 INFO  manager.ListenerWd - Start find element by -->By.id: login
+09:58:38.381 INFO  manager.ListenerWd - Finish find element by -->By.id: login
+09:58:38.495 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #password.css-wxvfrp
+09:58:41.699 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #password.css-wxvfrp
+09:58:42.265 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #login-submit
+09:58:42.303 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #login-submit
+09:58:42.414 INFO  manager.ListenerNG - onTestStart
+09:58:44.422 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: div.content-all-boards>div>div:nth-child(2) ul li
+09:58:56.886 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: div.content-all-boards>div>div:nth-child(2) ul li
+09:58:56.887 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: li[data-test-id='create-board-tile']
+09:58:56.931 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: li[data-test-id='create-board-tile']
+09:58:57.501 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: input[data-test-id='create-board-title-input']
+09:58:58.294 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: input[data-test-id='create-board-title-input']
+09:58:59.508 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #background-picker ul:last-child li:last-child
+09:58:59.577 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #background-picker ul:last-child li:last-child
+09:58:59.724 INFO  manager.ListenerWd - Start find element by -->By.xpath: //div[@title='Pink']
+09:58:59.856 INFO  manager.ListenerWd - Finish find element by -->By.xpath: //div[@title='Pink']
+09:59:00.075 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='create-board-submit-button']
+09:59:00.096 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='create-board-submit-button']
+09:59:00.245 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='create-board-submit-button']
+09:59:00.273 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='create-board-submit-button']
+09:59:06.691 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href $='boardpink1']
+09:59:06.709 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href $='boardpink1']
+09:59:11.966 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: div.content-all-boards>div>div:nth-child(3) ul li
+09:59:11.984 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: div.content-all-boards>div>div:nth-child(3) ul li
+09:59:11.987 INFO  manager.ListenerNG - onTestSuccess
+09:59:11.991 INFO  manager.TestBase - Start method with name --->test
+09:59:11.992 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.015 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.041 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.062 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.063 INFO  manager.ListenerNG - onTestStart
+09:59:12.064 INFO  manager.ListenerNG - onTestSuccess
+09:59:12.073 INFO  manager.TestBase - Start method with name --->changeAvatarSuccess
+09:59:12.074 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.102 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.135 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.145 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.147 INFO  manager.ListenerNG - onTestStart
+09:59:12.148 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.176 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:12.446 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-profile']
+09:59:12.794 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-profile']
+09:59:13.105 INFO  manager.ListenerWd - Start find element by -->By.xpath: //a[text()='Atlassian profile']
+09:59:14.282 INFO  manager.ListenerWd - Finish find element by -->By.xpath: //a[text()='Atlassian profile']
+09:59:19.892 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-selector='profile-hover-info']
+09:59:20.954 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-selector='profile-hover-info']
+09:59:21.359 INFO  manager.ListenerWd - Start find element by -->By.xpath: //span[text()='Change profile photo']
+09:59:21.410 INFO  manager.ListenerWd - Finish find element by -->By.xpath: //span[text()='Change profile photo']
+09:59:21.557 INFO  manager.ListenerWd - Start find element by -->By.id: image-input
+09:59:21.891 INFO  manager.ListenerWd - Finish find element by -->By.id: image-input
+09:59:22.400 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: .css-10b45o3
+09:59:22.444 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: .css-10b45o3
+09:59:23.247 INFO  manager.ListenerWd - Start find element by -->By.xpath: //span[text()='Avatar added']
+09:59:26.805 INFO  manager.ListenerWd - Finish find element by -->By.xpath: //span[text()='Avatar added']
+09:59:27.006 INFO  manager.ListenerNG - onTestSuccess
+09:59:27.009 INFO  manager.TestBase - Start method with name --->test
+09:59:27.011 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:27.027 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:27.058 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:27.086 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:27.087 INFO  manager.ListenerNG - onTestStart
+09:59:27.088 INFO  manager.TestBase - Start test test
+09:59:27.092 INFO  manager.ListenerNG - onTestSuccess
+09:59:27.096 INFO  manager.ListenerNG - onTestStart
+09:59:30.259 INFO  manager.GoToGoogle -  test start on Chrome
+09:59:33.643 INFO  manager.GoToGoogle -  we go to google
+09:59:33.644 INFO  manager.ListenerNG - onTestSuccess
+09:59:33.645 INFO  manager.TestBase - Start method with name --->loginSuccess
+09:59:33.646 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:33.696 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:33.723 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:33.734 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:33.735 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:33.749 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+09:59:33.916 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-logout']
+09:59:33.954 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-logout']
+09:59:36.622 INFO  manager.ListenerWd - Start find element by -->By.id: logout-submit
+09:59:36.643 INFO  manager.ListenerWd - Finish find element by -->By.id: logout-submit
+09:59:37.517 INFO  manager.ListenerNG - onTestStart
+09:59:37.518 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+09:59:42.577 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+09:59:42.627 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+09:59:42.640 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+09:59:44.389 INFO  manager.ListenerWd - Start find element by -->By.id: user
+09:59:44.476 INFO  manager.ListenerWd - Finish find element by -->By.id: user
+09:59:44.791 INFO  manager.ListenerWd - Start find element by -->By.id: login
+09:59:44.811 INFO  manager.ListenerWd - Finish find element by -->By.id: login
+09:59:44.925 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #password.css-wxvfrp
+09:59:48.791 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #password.css-wxvfrp
+09:59:49.735 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #login-submit
+09:59:49.827 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #login-submit
+09:59:50.270 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.583 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.626 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.657 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.658 INFO  manager.ListenerNG - onTestSuccess
+10:00:00.659 INFO  manager.TestBase - Start method with name --->loginSuccessUser
+10:00:00.661 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.688 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.863 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.938 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.941 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:00.953 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:01.295 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-logout']
+10:00:01.492 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-logout']
+10:00:04.207 INFO  manager.ListenerWd - Start find element by -->By.id: logout-submit
+10:00:04.250 INFO  manager.ListenerWd - Finish find element by -->By.id: logout-submit
+10:00:04.915 INFO  manager.ListenerNG - onTestStart
+10:00:04.923 INFO  manager.TestBase - Test start  with user --->User{email='hatum.testing@gmail.com', password='Hatum21$'}
+10:00:04.923 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+10:00:09.144 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+10:00:09.213 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+10:00:09.229 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+10:00:12.132 INFO  manager.ListenerWd - Start find element by -->By.id: user
+10:00:12.246 INFO  manager.ListenerWd - Finish find element by -->By.id: user
+10:00:12.544 INFO  manager.ListenerWd - Start find element by -->By.id: login
+10:00:12.594 INFO  manager.ListenerWd - Finish find element by -->By.id: login
+10:00:12.841 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #password.css-wxvfrp
+10:00:16.140 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #password.css-wxvfrp
+10:00:16.688 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #login-submit
+10:00:16.709 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #login-submit
+10:00:16.805 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:25.778 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:25.848 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:25.884 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:25.886 INFO  manager.TestBase - Tests assert that logout button is present
+10:00:25.888 INFO  manager.ListenerNG - onTestSuccess
+10:00:25.890 INFO  manager.TestBase - Start method with name --->loginWithWrongEmail
+10:00:25.891 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:25.928 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:25.992 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:26.022 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:26.023 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:26.045 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:26.275 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-logout']
+10:00:26.443 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-logout']
+10:00:28.303 INFO  manager.ListenerWd - Start find element by -->By.id: logout-submit
+10:00:28.331 INFO  manager.ListenerWd - Finish find element by -->By.id: logout-submit
+10:00:28.842 INFO  manager.ListenerNG - onTestStart
+10:00:28.843 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+10:00:32.847 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+10:00:32.926 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+10:00:32.997 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+10:00:34.331 INFO  manager.ListenerWd - Something went wrong!!!
+10:00:34.332 INFO  manager.ListenerWd - org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91d1747214d37d603f267da94d047545
+10:00:37.139 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-37.png
+10:00:37.150 INFO  manager.ListenerNG - onTestFailure
+10:00:37.153 INFO  manager.TestBase - Start method with name --->loginWithWrongPassword
+10:00:37.168 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+10:00:42.202 INFO  manager.ListenerWd - Something went wrong!!!
+10:00:42.202 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id='header-member-menu-button']"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91d1747214d37d603f267da94d047545
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+10:00:42.807 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-42.png
+10:00:42.810 INFO  manager.ListenerNG - onTestStart
+10:00:42.811 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+10:00:42.829 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+10:00:42.850 INFO  manager.ListenerWd - Start find element by -->By.id: user
+10:00:42.882 INFO  manager.ListenerWd - Finish find element by -->By.id: user
+10:00:43.214 INFO  manager.ListenerWd - Start find element by -->By.id: login
+10:00:43.261 INFO  manager.ListenerWd - Finish find element by -->By.id: login
+10:00:43.328 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #password.css-wxvfrp
+10:00:46.686 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #password.css-wxvfrp
+10:00:47.100 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #login-submit
+10:00:47.129 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #login-submit
+10:00:47.271 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: div#login-error span
+10:00:48.788 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: div#login-error span
+10:00:48.845 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: div#login-error span
+10:00:48.880 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: div#login-error span
+10:00:51.464 INFO  manager.ListenerNG - onTestSuccess
+10:00:51.465 INFO  manager.ListenerNG - onFinish

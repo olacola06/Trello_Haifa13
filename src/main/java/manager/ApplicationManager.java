@@ -3,6 +3,8 @@ package manager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -14,7 +16,11 @@ public class ApplicationManager {
     EventFiringWebDriver wd;
     UserHelper user;
     BoardHelper board;
+    String browser; ///firefox
 
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     public void init() {
    //     FirefoxOptions firefoxOptions = new FirefoxOptions();
@@ -24,9 +30,13 @@ public class ApplicationManager {
 //        wd = new FirefoxDriver(firefoxOptions);
 //ChromeOptions options = new ChromeOptions();
 //options.addArguments(,en)
-        wd = new EventFiringWebDriver(new ChromeDriver());
+        if(browser.equals(BrowserType.CHROME)) {
+            wd = new EventFiringWebDriver(new ChromeDriver());
+        }else if(browser.equals(BrowserType.FIREFOX)){
+            wd = new EventFiringWebDriver(new FirefoxDriver());
+        }
 
-        wd.manage().window().maximize();
+        wd.manage().window().maximize();// CI/CD [Jenkins {cd /Users/tayahatum/Qa13_Haifa/Trello_Haifa13:gradlew clean test}]
         wd.navigate().to("https://trello.com/");
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         user = new UserHelper(wd);

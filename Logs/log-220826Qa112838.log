@@ -1,0 +1,48 @@
+11:28:47.859 INFO  manager.TestBase - Start method with name --->changeAvatarSuccess
+11:28:47.973 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:28:53.244 INFO  manager.ListenerWd - Something went wrong!!!
+11:28:53.244 INFO  manager.ListenerWd - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id='header-member-menu-button']"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:53453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d26bfaa9cf2c97de83578eb1997c79cc
+*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-button']}
+11:28:53.809 INFO  manager.ListenerWd - Screen with problem is -->src/test/screenshots/screen-1733.png
+11:28:53.820 INFO  manager.TestBase - Test 'start with' user User{email='hatum.testing@gmail.com', password='Hatum21$'}
+11:28:53.821 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+11:28:53.843 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+11:28:53.913 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: a[href='/login']
+11:28:53.923 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: a[href='/login']
+11:28:56.125 INFO  manager.ListenerWd - Start find element by -->By.id: user
+11:28:56.154 INFO  manager.ListenerWd - Finish find element by -->By.id: user
+11:28:56.428 INFO  manager.ListenerWd - Start find element by -->By.id: login
+11:28:56.446 INFO  manager.ListenerWd - Finish find element by -->By.id: login
+11:28:56.549 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #password.css-wxvfrp
+11:28:59.726 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #password.css-wxvfrp
+11:29:00.164 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: #login-submit
+11:29:00.202 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: #login-submit
+11:29:00.296 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:29:11.902 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:29:12.215 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-profile']
+11:29:12.334 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-profile']
+11:29:12.502 INFO  manager.ListenerWd - Start find element by -->By.xpath: //a[text()='Atlassian profile']
+11:29:13.264 INFO  manager.ListenerWd - Finish find element by -->By.xpath: //a[text()='Atlassian profile']
+11:29:16.362 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-selector='profile-hover-info']
+11:29:16.770 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-selector='profile-hover-info']
+11:29:17.140 INFO  manager.ListenerWd - Start find element by -->By.xpath: //span[text()='Change profile photo']
+11:29:17.171 INFO  manager.ListenerWd - Finish find element by -->By.xpath: //span[text()='Change profile photo']
+11:29:17.404 INFO  manager.ListenerWd - Start find element by -->By.id: image-input
+11:29:17.579 INFO  manager.ListenerWd - Finish find element by -->By.id: image-input
+11:29:17.782 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: .css-10b45o3
+11:29:18.287 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: .css-10b45o3
+11:29:18.794 INFO  manager.ListenerWd - Start find element by -->By.xpath: //span[text()='Avatar added']
+11:29:21.406 INFO  manager.ListenerWd - Finish find element by -->By.xpath: //span[text()='Avatar added']
+11:29:21.594 INFO  manager.TestBase - Start method with name --->test
+11:29:21.596 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:29:21.616 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:29:21.643 INFO  manager.ListenerWd - Start find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:29:21.667 INFO  manager.ListenerWd - Finish find element by -->By.cssSelector: [data-test-id='header-member-menu-button']
+11:29:21.669 INFO  manager.TestBase - Start test test
